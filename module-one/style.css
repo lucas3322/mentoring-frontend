@@ -48,6 +48,10 @@ body {
   width: 540px;
 }
 
+.ilustracao-mobile{
+  display: none;
+}
+
 .acao {
   width: 245px;
   text-align: right;
@@ -155,3 +159,53 @@ body {
     margin: 1.5rem 0 0 0;
   }
 }
+
+
+@media only screen and (max-width: 700px) {
+    .container{
+      max-width: 500px;
+    }
+    .organiza-meio{
+      padding-bottom: 0px;
+    }
+    
+    .nav{
+      display: none;
+    }
+
+    .btn-top{
+      width: 120px;
+    }
+
+    p{
+      font-size: 0.85rem;
+    }
+
+    .ilustracao img{
+      display: none;
+    }
+
+    .ilustracao-mobile{
+      display: flex;
+    }
+
+    .ilustracao-mobile img{
+      margin: auto;
+      width: 400px;
+      height: 400px;
+    }
+
+    .logo-bot{
+      display: none;
+    }
+
+    .media img {
+      width: 20px;
+      height: 20px;
+    }
+
+    .social-media{
+      display: flex;
+      margin: auto;
+    }
+  }
