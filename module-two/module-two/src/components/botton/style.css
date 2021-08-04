@@ -1,0 +1,37 @@
+.btn{
+    margin: 0;
+    padding: 9px 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    border-radius: 2px;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 100px;
+}
+
+.btn-color{
+    background: #0e163c;
+    
+}
+.btn-mediun{
+    margin-top: 9px;
+    min-width: 160px;
+    font-size: 16;
+    
+    padding-bottom: 9px;
+    color: white;
+    border-radius: 5px;
+}
+.btn-large{
+    min-width: 160px;
+    font-size: 18px;
+}
+
+.btn-red{
+    background-color: tomato;
+}
+
+.btn-small{
+    min-width: 80px;
+    font-size: 13px;
+}
