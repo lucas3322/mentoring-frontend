@@ -5,7 +5,8 @@ const Button = (props) => {
 
     const {
         color,
-        mediun
+        mediun,
+        large
     } = props
 
     return(

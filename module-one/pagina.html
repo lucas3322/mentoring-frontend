@@ -1,8 +1,10 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nossa primeira pagina</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <script src="main.js"></script>
   </head>
   <body>
     <div class="preto pequeno">
@@ -13,14 +15,27 @@
             <li>Sobre</li>
             <li>Contato</li>
           </ul>
-          <div class="logo">
+          <div class="logo" >
             <img src="imagens/logo.png" alt=".mentoring">
           </div>
           <div class="acao">
             <button class="btn azul-escuro btn-medio borda-arredondada btn-top">Entrar</button>
           </div>
+          <div class="mobile-menu visible" onClick="OpenMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
         </div>
       </div>
+    </div>
+
+    <div class="menu-mobile-nav">
+      <ul class="nav">
+        <li>Home</li>
+        <li>Sobre</li>
+        <li>Contato</li>
+      </ul>
     </div>
     
     <div class="">
@@ -46,12 +61,11 @@
           <div class="ilustracao">
             <img src="imagens/ilustracao.png"/>
           </div>
-          <div class="ilustracao-mobile">
-            <img src="imagens/organizando-a-ilustracao-do-conceito-de-projetos_114360-542.jpg" alt="projetos">
-          </div>
         </div>
       </div>
     </div>
+
+    
 
     <footer class="cinza rodape">
       <div class="container">

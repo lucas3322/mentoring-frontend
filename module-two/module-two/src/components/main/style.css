@@ -1,0 +1,29 @@
+.container-main{
+    display: flex;
+    width: 1100px;
+    margin: auto;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ilustracao{
+    display: flex;
+    align-items: center;
+}
+
+.ilustracao img{
+    width: 540px;
+}
+
+.texto Button {
+    width: 160px;
+}
+
+.texto Button:hover {
+    background: #070b22;
+}
