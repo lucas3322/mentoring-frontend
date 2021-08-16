@@ -1,11 +1,13 @@
 import Button from '../botton'
 import './style.css'
 import ilustracao from '../../assets/ilustracao.png';
+import menuMobile from '../mobile-menu';
 
 const Main = () => {
     return(
         <div className="container-main">
             <div className="texto">
+            
                 <h1>Parte do minato Rap dos Kages</h1>
                 <p>
                     Quem é que observa essa vila? De cima, liderando os ninjas
@@ -25,6 +27,7 @@ const Main = () => {
             <div className="ilustracao">
                 <img src={ilustracao} alt="ilustração"  />
             </div>
+            
         </div>
     )
 }

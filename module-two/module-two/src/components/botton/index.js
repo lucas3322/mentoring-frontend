@@ -1,6 +1,12 @@
 import './style.css';
 import  React  from 'react';
 
+
+const onCLivk = () => {
+    console.log('Cliquei ')
+}
+
+
 const Button = (props) => {
 
     const {
@@ -9,8 +15,9 @@ const Button = (props) => {
         large
     } = props
 
+
     return(
-        <button className={`btn btn-${color} btn-${mediun}`}>
+        <button  onClick={onCLivk} className={`btn btn-${color} btn-${mediun}`}>
             Entrar
         </button>
     );
