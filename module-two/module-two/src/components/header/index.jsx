@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 import Navegation from '../navegation/index'
 import Button from '../botton';
 import Logo from '../../assets/logo.png';
@@ -8,7 +8,7 @@ import { useState } from 'react';
 
 
 const Header = (props) => {
-    const [isOpen, setOpen] = useState(false)
+    const [isOpen, setOpen] = useState(true)
 
     const handleClick = () => {
         if(isOpen === true){
